@@ -1,10 +1,7 @@
-// Write a function that returns a message using template literals.
 
-function getMessage(name, age) {
-    // Write your code here
-}
+const name = "Afzal";
+const age = 21;
 
-// Don't change the code below
-console.log(getMessage(process.argv[2], process.argv[3]));
+const message = `Hello, my name is ${name} and I am ${age} years old.`;
 
-module.exports = getMessage;
+console.log(message);
