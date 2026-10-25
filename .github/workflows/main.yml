@@ -21,4 +21,4 @@ jobs:
           node-version: 20
 
       - name: Run JavaScript Program
-        run: node index.js
+        run: node greet.js
